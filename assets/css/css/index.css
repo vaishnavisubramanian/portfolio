@@ -382,6 +382,11 @@ nav .fas {
     margin-top: 70px;
 }
 
+.tab-contents ul li a {
+    text-decoration: none;
+    color: white;
+}
+
 @media only screen and (max-width: 600px) {
     #header {
         background-image: url(./IMG-20220308-WA0006\(2\).png);
@@ -399,6 +404,7 @@ nav .fas {
     }
     nav ul {
         background: #FFD43A;
+        color: black;
         position: fixed;
         top: 0;
         right: -200px;
@@ -411,6 +417,10 @@ nav .fas {
     nav ul li {
         display: block;
         margin: 25px;
+    }
+    nav ul li a {
+        background-color: #FFD43A;
+        color: black;
     }
     nav ul .fas {
         position: absolute;
